@@ -9,7 +9,11 @@ const connectdb = require("./util/mongoDB");
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 const corsOptions = {
-  origin: ["https://chat-forum-frontend.vercel.app", "http://localhost:3006"],
+  origin: [
+    "https://chat-forum-frontend.vercel.app",
+    "http://localhost:3006",
+    "https://learnblocks-forum.vercel.app",
+  ],
   methods: "GET, POST, PUT, DELETE",
   allowedHeaders: "Content-Type, Authorization",
   credentials: true,
