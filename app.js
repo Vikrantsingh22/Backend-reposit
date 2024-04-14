@@ -13,6 +13,7 @@ const corsOptions = {
     "https://chat-forum-frontend.vercel.app",
     "http://localhost:3006",
     "https://learnblocks-forum.vercel.app",
+    "https://thinklabs-forum.vercel.app",
   ],
   methods: "GET, POST, PUT, DELETE",
   allowedHeaders: "Content-Type, Authorization",
